@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <tittle>
+        Новая вселенная
+    </tittle>
+    <meta name="university" />
+    <link rel="shortcut icon" href="18.png/favicon.ico" type="image/png">
+    <style type="text/css">
+        .box1 {
+            padding: 5px;
+            padding-right: 10px;
+            float: left;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 130%;
+            color: cornflowerblue;
+        }
+
+        .box3 {
+            padding: 5px;
+            padding-right: 10px;
+            float: left;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 130%;
+            color: yellow;
+        }
+
+        .box21 {
+            padding: 5px;
+            float: left;
+            color: whitesmoke;
+        }
+
+        .box11 {
+            width: 805px;
+            padding: 5px;
+            padding-right: 10px;
+            border: solid 1px;
+            float: left;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 130%;
+            color: cornflowerblue;
+            width: 99%
+        }
+
+        .box2 {
+            padding: 5px;
+            padding-right: 10px;
+            border: solid 1px;
+            float: left;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 130%;
+            color: powderblue;
+        }
+    </style>
+    <style>
+        table {
+            color: aqua
+        }
+
+        body {
+            background: url(17.jpg)
+        }
+
+        h1 {
+            color: aquamarine;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 250%;
+        }
+
+        button {
+            width: 200px;
+            padding: 5px;
+            padding-right: 10px;
+            border: solid 1px blue;
+            float: left;
+            background: grey;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 130%;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav a {
+            display: block;
+            text-decoration: none;
+            outline: none;
+            transition: .4s ease-in-out;
+        }
+
+        .topmenu {
+            backface-visibility: hidden;
+            background: rgba(255,255,255,.8);
+        }
+
+            .topmenu > li {
+                display: inline-block;
+                position: relative;
+            }
+
+                .topmenu > li > a {
+                    font-family: 'Exo 2', sans-serif;
+                    height: 70px;
+                    line-height: 70px;
+                    padding: 0 30px;
+                    font-weight: bold;
+                    color: #003559;
+                    text-transform: uppercase;
+                }
+
+        .down:after {
+            content: "\f107";
+            margin-left: 8px;
+            font-family: FontAwesome;
+        }
+
+        .topmenu li a:hover {
+            color: #E6855F;
+        }
+
+        .submenu {
+            background: white;
+            border: 2px solid #003559;
+            position: absolute;
+            left: 0;
+            visibility: hidden;
+            opacity: 0;
+            z-index: 5;
+            width: 150px;
+            transform: perspective(600px) rotateX(-90deg);
+            transform-origin: 0% 0%;
+            transition: .6s ease-in-out;
+        }
+
+        .topmenu > li:hover .submenu {
+            visibility: visible;
+            opacity: 1;
+            transform: perspective(600px) rotateX(0deg);
+        }
+
+        .submenu li a {
+            color: #7f7f7f;
+            font-size: 13px;
+            line-height: 36px;
+            padding: 0 25px;
+            font-family: 'Kurale', serif;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">Видеоматериалы</h1>
+    <nav>
+        <ul class="topmenu">
+            <li><a href="First.html">Главная</a></li>
+            <li>
+                <a href="" class="down">Чудеса вселенной</a>
+                <ul class="submenu">
+                    <li><a href="2.html">Звезды</a></li>
+                    <li><a href="3.html">Черные дыры</a></li>
+                    <li><a href="4.html">Галактики</a></li>
+                    <li><a href="5.html">Планеты</a></li>
+                </ul>
+            </li>
+            <li><a href="6.html">Видеоматериалы о космосе</a></li>
+        </ul>
+    </nav>
+    <div class="box1">
+        <h2>
+            Интересные видеоматериалы:
+        </h2>
+        <iframe width="910" height="500" src="https://www.youtube.com/watch?v=_bT8fQjDhNw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="910" height="500" src="https://www.youtube.com/watch?v=YPMU2dsIoEo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="box3">
+        <h2>Список знаменитых астрофизиков</h2>
+        <ol>
+            <li>
+               Эдвин Хаббл (1889 -1953)
+            </li>
+            <li>
+Арно Пензиас
+            </li>
+            <li>
+Георгий Гамов
+            </li>
+            <li>
+Константин Циалковский
+            </li>
+            <li>
+Стивен Хоккинг
+            </li>
+            </ol>
+    </div>
+    <blockquote class="box3">
+        Перед лицом Космоса большинство людских дел выглядят незначительными, даже пустячными.
+        Космос — это всё, что есть, что когда-либо было и когда-нибудь будет.
+        Одно созерцание Космоса потрясает: дрожь бежит по спине, перехватывает горло, и появляется чувство, слабое, как смутное воспоминание, будто падаешь с высоты. <br />
+        Карл Саган
+    </blockquote>
+</body>
+</html>
